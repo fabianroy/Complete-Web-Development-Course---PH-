@@ -1,0 +1,12 @@
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tfoot tr td{
+    text-align: center;
+}
