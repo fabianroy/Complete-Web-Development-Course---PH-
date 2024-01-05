@@ -1,2 +1,2 @@
 # Topic
-Learn HTML as a beginner.
+Learn and Explore HTML
