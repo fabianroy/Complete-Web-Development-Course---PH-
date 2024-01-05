@@ -1,2 +1,2 @@
 # Topic
-Learn CSS as a beginner.
+Learn and Explore CSS
