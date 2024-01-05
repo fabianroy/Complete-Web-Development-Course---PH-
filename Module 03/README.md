@@ -1,2 +1,2 @@
 # Topic 
-GIT, Source Control, GitHub and Hosting
+Git, Source Control, GitHub and Hosting
