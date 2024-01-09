@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+
+h1:hover{
+    color: blue;
+}
+
+input:focus{
+    color: rgb(1, 152, 227);
+    outline: none;
+}
+
+a{
+    color: blue;
+}
+
+a:visited{
+    color: rgb(231, 0, 0);
+}
+
+li:last-child{
+    color: red;
+}
+
+li:nth-child(2n+1){
+    color: rgb(241, 0, 241);
+}
