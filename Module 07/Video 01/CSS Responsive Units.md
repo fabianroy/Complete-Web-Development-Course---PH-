@@ -2,4 +2,4 @@
 px, cm, mm, in etc.
 
 # Relative Unts
-em, rem, vh, vw, vmax, vmin, ex, ec 
+%, em, rem, vh, vw, vmax, vmin, ex, ec 
