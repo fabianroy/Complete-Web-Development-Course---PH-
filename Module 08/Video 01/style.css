@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.box{
+    background-color: slateblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 255, 179);
+    border: 1px solid black;
+}
+
+@media screen and (max-width:576px){
+    
+    .container{
+        flex-direction: column;
+    }
+
+}
