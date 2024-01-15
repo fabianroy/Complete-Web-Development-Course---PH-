@@ -1,0 +1,21 @@
+.container, .inner{
+    width: 200px;
+    height: 200px;
+}
+
+.container{
+    border: 2px solid steelblue;
+    background-color: mediumaquamarine;
+}
+
+.inner{
+    border: 1px solid rgb(168, 0, 112);
+    background-color: palegoldenrod;
+    /* transform: scale(0.25, 0.5); */
+    transform: scale(0.50) translateX(50px);
+    transition-duration: 0.3s;
+}
+
+.inner:hover{
+    transform: rotate(45deg) scale(0.50);
+}
