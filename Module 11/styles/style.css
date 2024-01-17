@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+/* Style for navigation bar */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.nav>h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav>h3 span {
+    color: orangered;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav ul li:first-child {
+    color: orangered;
+    font-weight: 700;
+}
+
+/* Style for banner */
+
+.banner {
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/Group\ 13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 200px 200px 0px rgba(0, 0, 0, 0.6) inset;
+}
+
+.banner-title {
+    color: white;
+    font-size: 4rem;
+    padding-top: 130px;
+}
+
+.banner-description {
+    color: white;
+    font-size: 1rem;
+    ;
+    padding-top: 40px;
+}
+
+/* Style for search bar */
+
+.banner-input {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 50px;
+}
+
+.find {
+    width: 180px;
+    font-size: 1rem;
+    padding: 20px 20px;
+    color: gray;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+#btn-find {
+    color: #fff;
+    background-color: orangered;
+    font-weight: 600;
+}
+
+/* Style for all btn-primary */
+
+.btn-primary {
+    width: 150px;
+    font-size: 1rem;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: orangered;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Style for popular tours */
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 1170px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.popular-tours {
+    display: flex;
+    align-items: start;
+    gap: 0px 80px;
+}
+
+.popular-tours h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.popular-tours p {
+    font-size: 1rem;
+    color: #181818;
+    margin: 20px 0px;
+    line-height: 1.5;
+}
+
+.popular-tours ul {
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #474747;
+
+}
+
+.popular-tours ul li {
+    margin: 10px 0px;
+}
+
+/* Style for destination section */
+
+.destination h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.destination p {
+    font-size: 1rem;
+    color: #181818;
+    margin-top: 40px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: -70px;
+}
+
+.maldives {
+    width: 50%;
+}
+
+.indonesia {
+    width: 50%;
+}
+
+.bangladesh {
+    width: 40%;
+}
+
+.bandarban {
+    width: 60%;
+}
+
+.card img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card p {
+    position: relative;
+    top: 180px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Style for choose us section */
+
+.choose-us {
+    margin-top: 150px;
+}
+
+.choose-us>h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.choose-us>p {
+    font-size: 1rem;
+    color: #181818;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.choose-card {
+    width: 700px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 50px 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2)
+}
+
+.choose-row {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.choose-card i {
+    font-size: 2rem;
+    color: orangered;
+}
+
+.choose-card h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.choose-card p {
+    color: #181818;
+}
+
+.third-card {
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Style for place section */
+
+.place-cont h3 {
+    font-size: 3rem;
+}
+
+.place-cont p {
+    font-size: 1rem;
+    color: #181818;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.place-cont ul {
+    padding-left: 20px;
+    font-size: 0.8rem;
+    color: #474747;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.place-cont ul li {
+    margin: 10px 0px;
+}
+
+.place {
+    display: flex;
+    gap: 0px 80px;
+    justify-content: space-between;
+}
+
+/* Style for Newsletter */
+
+.news-sec {
+    display: flex;
+    gap: 0px 50px;
+}
+
+.form {
+    width: auto;
+    height: fit-content;
+    border: 2px solid orangered;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+.form h4 {
+    font-size: 2rem;
+}
+
+hr {
+    border: 1px solid orangered;
+}
+
+.form p {
+    font-size: 1rem;
+    color: #181818;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+    border: none;
+    background-color: #07070713;
+    border-radius: 10px;
+    padding: 20px 20px;
+    outline: none;
+    font-size: 1rem;
+    opacity: 0.8;
+    font-family: "Montserrat", sans-serif;
+}
+
+#submit {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 20px 20px;
+    color: #fff;
+    background-color: orangered;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.save-70 {
+    width: 300px;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    position: relative;
+    bottom: 180px;
+    left: 320px;
+    transform: rotate(-20deg);
+}
+
+/* Styles for Footer */
+
+footer {
+    width: 100%;
+    background-color: orangered;
+    text-align: center;
+    padding: 50px 300px;
+}
+
+footer h3 {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 8px;
+    cursor: pointer;
+}
+
+footer h3 img {
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer h3 span {
+    color: rgb(255, 255, 255);
+}
+
+.footer-des {
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.links i {
+    margin-right: 20px;
+    font-size: 2rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-hr {
+    border: 1px solid #fff;
+    margin: 30px 0px;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Responsive style for Mobile */
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 0px 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav ul {
+        margin-top: 30px;
+    }
+
+    .nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0px;
+        font-size: 1.2rem;
+    }
+
+    .banner {
+        width: 100%;
+        height: 500px;
+    }
+
+    .banner-title {
+
+        font-size: 2rem;
+        padding-top: 60px;
+    }
+
+    .banner-description {
+        font-size: 0.8rem;
+        padding: 20px;
+    }
+
+    .banner-input {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+    section {
+        width: 100%;
+        margin-top: 80px;
+        padding: 0px 20px;
+    }
+
+    .popular-tours {
+        flex-direction: column;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .popular-tours h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .popular-tours p {
+        font-size: 1rem;
+        margin: 10px 0px;
+        padding: 10px 0px;
+    }
+
+    .popular-tours ul {
+        text-align: left;
+    }
+
+    .popular-tours ul li {
+        margin: 20px 0px;
+    }
+
+    .hill-img {
+        margin-top: 20px;
+    }
+
+    .hill-img img {
+        width: 100%;
+    }
+
+    .destination h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .destination p {
+        font-size: 1rem;
+
+        margin-top: 30px;
+        margin-bottom: -20PX;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 0px;
+    }
+
+    .maldives {
+        width: 100%;
+    }
+
+    .indonesia {
+        width: 100%;
+    }
+
+    .bangladesh {
+        width: 100%;
+    }
+
+    .bandarban {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: -50px;
+    }
+
+    .card p {
+        position: relative;
+        top: 180px;
+        font-size: 2rem;
+    }
+
+    .choose-us>h3 {
+        font-size: 2rem;
+    }
+
+    .choose-us>p {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .choose-card {
+        width: 100%;
+    }
+
+    .choose-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .place-cont h3 {
+        font-size: 2rem;
+    }
+
+    .place-cont p {
+        margin-bottom: 20px;
+    }
+
+    .place-cont ul {
+        text-align: left;
+    }
+
+    .place-cont ul li {
+        margin: 10px 0px;
+    }
+
+    .place-cont {
+        margin-bottom: 30px;
+    }
+
+    .place #video img {
+        width: 100%;
+    }
+
+    .place {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-sec {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .save-img img {
+        width: 100%;
+    }
+
+    .save-70 {
+        width: fit-content;
+        font-size: 1rem;
+        bottom: 140px;
+        left: 140px;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 50px 30px;
+    }
+}
