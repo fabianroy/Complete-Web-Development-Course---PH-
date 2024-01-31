@@ -24,3 +24,7 @@ let college = {
 console.log(college.name);
 console.log(college.unique.color);
 console.log(college.events[1]);
+
+// Delete
+delete college.class
+console.log(college);
