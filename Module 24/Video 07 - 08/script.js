@@ -29,7 +29,7 @@ section.appendChild(ul);
 
 mainContainer.appendChild(section);
 
-// Ser innerHTML direclty
+// Set innerHTML direclty
 
 let sectionDress = document.createElement('section');
 sectionDress.innerHTML = `
