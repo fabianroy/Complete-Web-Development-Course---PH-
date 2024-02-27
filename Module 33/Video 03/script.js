@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script src="script.js"></script>
-</body>
-</html>
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+    .then(response => console.log(response)) // .json is not similae but close to JSON.parse
+   // .then(json => console.log(json))
