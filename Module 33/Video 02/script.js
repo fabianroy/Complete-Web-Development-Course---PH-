@@ -19,8 +19,8 @@ const shop = {
     isOpen: true 
 }
 
-const shopJSON = JSON.stringify(shop);
+const shopJSON = JSON.stringify(shop); // Converts objects to string
 console.log(shopJSON);
 
-const shopOBJ = JSON.parse(shopJSON);
+const shopOBJ = JSON.parse(shopJSON); // Converts string to objects
 console.log(shopOBJ);
