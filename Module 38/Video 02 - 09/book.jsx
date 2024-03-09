@@ -1,6 +1,11 @@
-.book { 
-    border: 2px solid red;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+import './Book.css';
+
+export default function Book({book}) {
+    const {name, price} = book;
+    return (
+        <div className='book'>
+            <h3>Book Name: {name}</h3>
+            <p>Price: {price}</p>
+        </div>
+    )
 }
