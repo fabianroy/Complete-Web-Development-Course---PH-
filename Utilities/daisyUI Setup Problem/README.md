@@ -6,3 +6,4 @@ env: {
    node: true,    <<<<--- Add this
    es6: true
  },
+</code>
